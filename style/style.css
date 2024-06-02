@@ -50,7 +50,7 @@ header {
     background-color: #FD6F00;
     padding: 18px 26px;
     border: none;
-    border-radius: px;
+    border-radius: 5px;
     font-size: 21px;
 }
 
@@ -153,11 +153,12 @@ header {
 }
 
 .banner-skills {
-    display: flex;
+    display: inline-flex;
+    justify-content: flex-end;
     align-items: center;
     gap: 15px;
-    width: 100%;
     transform: rotate(-3.969deg);
+    /* padding: 42px 0px 42px 41px; */
     background: #000;
 }
 
@@ -182,6 +183,7 @@ header {
     font-size: 40px;
     font-weight: 800;
     text-transform: uppercase;
+    padding-bottom: 19px;
 }
 
 .about-me p {
@@ -272,3 +274,156 @@ header {
     padding: 12px 0 20px 0;
 }
 
+
+/* AWARD */
+
+.award-container{
+    background-color: #1E1E1E;
+    padding: 180px 200px;
+    
+}
+.award-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.award-title h2{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 800;
+    
+
+}
+.award-title p{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.60px;
+    padding-bottom: 48px;
+   
+}
+
+.award-box{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 30px;
+    padding: 42px 56px;
+    background-color: #000;
+    border: 1px solid #FD6F00;
+    border-radius: 5px;
+}
+.award-name{
+    display: flex;
+    justify-content: space-between;
+}
+.award-box h3{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+}
+.award-name h4{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+}
+.award-box p{
+    color: rgba(255, 255, 255, 0.50);
+}
+
+
+/* my-portfolio */
+
+
+.my-portfolio-container{
+    background-color: #1E1E1E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+
+.my-portfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+
+.portfolio-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 19px;
+}
+
+.portfolio-title h3{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.portfolio-title p{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.60px;
+}
+
+.portfolio-button{
+    display: flex;
+    justify-content: space-between;
+    gap: 17px;
+}
+.secondery-button{
+    color: #FFF;
+    background-color: #000;
+    padding: 18px 26px;
+    border: none;
+    border-radius: 5px;
+    font-size: 21px;
+}
+
+.portfolio-container{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.portfolio-details-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 36px;
+}
+
+.portfolio-image img{
+    border-radius: 5px;
+}
+.portfolio-details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+.portfolio-details h4{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+}
+.portfolio-details h3{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+}
+.portfolio-details p{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 12px;
+}
