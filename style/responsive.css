@@ -1,0 +1,93 @@
+
+
+@media screen and (max-width: 576px){
+    .header{
+        margin: 0 10px;
+    }
+    .nav-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-list{
+       flex-direction: column;
+       gap: 10px;
+    }
+    .banner-container{
+        flex-direction: column;
+        
+    }
+    .banner-image img{
+        width: 95%;
+        height: 95%;
+    }
+    .banner-title, .banner-desc{
+        text-align: center;
+    }
+    .banner-skill{
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-skills{
+        display: none;
+    }
+    .banner-buttons, .social-icon{
+        justify-content: center;
+    }
+    .social-icon{
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .about{
+        flex-direction: column;
+        padding: 10px 5px 20px 5px;
+        gap: 20px;
+        align-items: center;
+    }
+    .about-me h3, p{
+        text-align: center;
+    }
+    .about-experince, .about-year p{
+        text-align: center;
+        align-items: center;
+    }
+
+
+    .experince-container{
+        flex-direction: column;
+        padding: 20px 0;
+        width: 100%;
+        
+    }
+    .experince, .experince-names{
+        width: 95%;
+        text-align: center;
+    }
+
+    .award-container, .award-box{
+        padding: 10px 5px 20px 5px;
+    }
+    .award-name, .portfolio-button, .portfolio-details-container, .portfolio-details, .footer-navber{
+        flex-direction: column;
+        align-items: center;
+    }
+    .award-box h3{
+        font-size: 23px;
+    }
+
+    .my-portfolio-container{
+        padding: 0;
+        width: 100%;
+    }
+
+    .portfolio-details h3{
+        font-size: 35px;
+    }
+
+    .contact-container, .contact-box, .footer-container{
+        padding: 10px 5px 20px 5px;
+        align-items: center;
+    }
+
+
+}
